@@ -80,6 +80,8 @@ Create a .env file in the root directory.
 
 MISTRAL_API_KEY=your_mistral_api_key
 TAVILY_API_KEY=your_tavily_api_key
+
+
 🚀 Run the Application
 streamlit run app.py
 🧩 Core Components
