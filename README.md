@@ -1,20 +1,36 @@
-﻿🚀 ResearchMind — Multi-Agent AI Research System
+# 🚀 ResearchMind — Multi-Agent AI Research System
 
-A futuristic multi-agent AI research platform powered by LangChain, LangGraph, Mistral AI, Tavily, and Streamlit.
-Designed to simulate collaborative AI agents capable of searching, scraping, writing, and critiquing research autonomously.
+> A futuristic multi-agent AI research platform powered by **LangChain**, **LangGraph**, **Mistral AI**, **Tavily**, and **Streamlit**.
 
-✨ Overview
+ResearchMind simulates a collaborative AI ecosystem where multiple intelligent agents work together to:
 
-ResearchMind is an advanced AI research workflow where multiple specialized agents work together in a coordinated pipeline:
+* 🌐 Search the web
+* 🕷️ Scrape websites
+* 🧠 Analyze information
+* ✍️ Generate research reports
+* 🔍 Critique and improve outputs
 
-🔍 Search Agent → Finds relevant information from the web
-📄 Reader Agent → Scrapes and extracts deeper content
-✍️ Writer Chain → Generates structured research reports
-🧠 Critic Chain → Reviews and critiques the generated report
+---
 
-The entire workflow runs inside a modern Streamlit interface with a sleek cyberpunk-inspired UI.
+## ✨ Features
 
-🧠 Multi-Agent Workflow
+* ✅ Multi-Agent AI Workflow
+* ✅ Tavily Web Search Integration
+* ✅ Website Scraping with BeautifulSoup
+* ✅ ReAct-style Agent Reasoning
+* ✅ LangGraph + LCEL Pipelines
+* ✅ AI-generated Research Reports
+* ✅ Critic/Reviewer AI Feedback Loop
+* ✅ Futuristic Streamlit UI
+* ✅ Modular Architecture
+* ✅ Mistral AI Integration
+* ✅ Real-Time Pipeline Visualization
+
+---
+
+## 🧠 Multi-Agent Workflow
+
+```text
 User Query
     ↓
 🔍 Search Agent
@@ -26,31 +42,28 @@ User Query
 🧠 Critic Chain
     ↓
 📋 Final Research Report
-⚡ Features
+```
 
-✅ Multi-Agent AI Workflow
-✅ Tavily Web Search Integration
-✅ Website Scraping with BeautifulSoup
-✅ ReAct-style Agent Reasoning
-✅ LangGraph + LCEL Pipelines
-✅ AI-generated Research Reports
-✅ Critic/Reviewer AI Feedback Loop
-✅ Futuristic Streamlit UI
-✅ Modular Architecture
-✅ Mistral AI Integration
-✅ Real-Time Pipeline Visualization
+---
 
-🏗️ Tech Stack
-Category	Technology
-🤖 LLM	Mistral AI
-🧠 Agent Framework	LangChain
-🔄 Orchestration	LangGraph
-🌐 Search Engine	Tavily
-🕷️ Web Scraping	BeautifulSoup
-🎨 Frontend	Streamlit
-🔗 Pipelines	LCEL
-🐍 Language	Python
-📂 Project Structure
+## 🏗️ Tech Stack
+
+| Category           | Technology    |
+| ------------------ | ------------- |
+| 🤖 LLM             | Mistral AI    |
+| 🧠 Agent Framework | LangChain     |
+| 🔄 Orchestration   | LangGraph     |
+| 🌐 Search Engine   | Tavily        |
+| 🕷️ Web Scraping   | BeautifulSoup |
+| 🎨 Frontend        | Streamlit     |
+| 🔗 Pipelines       | LCEL          |
+| 🐍 Language        | Python        |
+
+---
+
+## 📂 Project Structure
+
+```bash
 multi-agent-research-system/
 │
 ├── agents.py
@@ -61,121 +74,191 @@ multi-agent-research-system/
 ├── .env
 ├── .gitignore
 └── README.md
-⚙️ Installation
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone <your-repository-url>
 cd multi-agent-research-system
-2️⃣ Create Virtual Environment
-Windows
+```
+
+---
+
+### 2️⃣ Create Virtual Environment
+
+#### Windows
+
+```bash
 python -m venv .venv
+```
 
 Activate the environment:
 
+```bash
 .\.venv\Scripts\Activate.ps1
-3️⃣ Install Dependencies
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-🔑 Environment Variables
+```
 
-Create a .env file in the root directory.
+---
 
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
 MISTRAL_API_KEY=your_mistral_api_key
 TAVILY_API_KEY=your_tavily_api_key
+```
 
+---
 
-🚀 Run the Application
+## 🚀 Run the Application
+
+```bash
 streamlit run app.py
-🧩 Core Components
-🔍 Search Agent
+```
+
+---
+
+## 🧩 Core Components
+
+### 🔍 Search Agent
 
 Responsible for:
 
-Searching the web using Tavily
-Finding reliable and recent sources
-Passing search results to downstream agents
-📄 Reader Agent
+* Searching the web using Tavily
+* Finding reliable sources
+* Collecting research information
+
+---
+
+### 📄 Reader Agent
 
 Responsible for:
 
-Selecting the best source
-Scraping webpages
-Extracting meaningful content
-✍️ Writer Chain
+* Selecting the best source
+* Scraping webpage content
+* Extracting meaningful information
+
+---
+
+### ✍️ Writer Chain
 
 Responsible for:
 
-Analyzing collected information
-Generating research reports
-Structuring the final response
-🧠 Critic Chain
+* Analyzing collected information
+* Generating structured reports
+* Producing final research outputs
+
+---
+
+### 🧠 Critic Chain
 
 Responsible for:
 
-Reviewing generated reports
-Providing AI feedback
-Improving report quality
-🎨 UI Highlights
+* Reviewing generated reports
+* Providing AI feedback
+* Improving report quality
 
-ResearchMind features:
+---
 
-Futuristic dark-themed interface
-Animated pipeline stages
-Real-time agent progress
-Cyberpunk-inspired gradients
-Interactive report generation
-Minimalist research dashboard
+## 🎨 UI Highlights
 
-Built completely with Streamlit + Custom CSS.
+ResearchMind includes:
 
-🔬 Example Research Topics
+* Futuristic dark-themed interface
+* Animated pipeline stages
+* Real-time agent visualization
+* Cyberpunk-inspired design
+* Interactive research dashboard
+
+Built completely using **Streamlit + Custom CSS**.
+
+---
+
+## 🔬 Example Research Topics
 
 Try prompts like:
 
+```text
 Quantum Computing in Drug Discovery
 Future of Artificial General Intelligence
 Impact of AI on Cybersecurity
 Climate Change and Renewable Energy
 Latest Developments in Robotics
-🌟 Future Improvements
-Autonomous Planning Agents
-Async Agent Execution
-Memory Systems
-Streaming Responses
-Vector Databases
-RAG Pipelines
-PDF Research Export
-Docker Deployment
-Multi-User Support
-Voice-based Research Assistant
-📖 Learning Outcomes
+```
+
+---
+
+## 🌟 Future Improvements
+
+* Autonomous Planning Agents
+* Async Agent Execution
+* Memory Systems
+* Streaming Responses
+* Vector Databases
+* RAG Pipelines
+* PDF Report Generation
+* Docker Deployment
+* Voice-based Research Assistant
+
+---
+
+## 📖 Learning Outcomes
 
 This project helps in understanding:
 
-AI Agents
-LangChain
-LangGraph
-ReAct Architecture
-LCEL Pipelines
-Tool Calling
-AI Workflow Orchestration
-Web Scraping
-Mistral AI Integration
-Streamlit UI Design
-⚠️ Important Notes
-Never upload your .env
-Keep API keys secure
-Use virtual environments
-Start with smaller workflows before scaling
-👨‍💻 Author
-Anshu Varma
-📜 License
+* AI Agents
+* LangChain
+* LangGraph
+* LCEL Pipelines
+* ReAct Architecture
+* Tool Calling
+* Workflow Orchestration
+* Web Scraping
+* Mistral AI Integration
+* Streamlit UI Design
+
+---
+
+## ⚠️ Important Notes
+
+* Never upload your `.env`
+* Keep API keys secure
+* Use virtual environments
+* Start simple and scale gradually
+
+---
+
+## 👨‍💻 Author
+
+### Anshu Varma
+
+---
+
+## 📜 License
 
 MIT License
 
-⭐ Support
+---
+
+## ⭐ Support
 
 If you found this project helpful:
 
-⭐ Star the repository
-🍴 Fork the project
-🚀 Build your own AI agents
-🧠 Explore autonomous workflows
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 🚀 Build your own AI agents
+* 🧠 Explore autonomous workflows
